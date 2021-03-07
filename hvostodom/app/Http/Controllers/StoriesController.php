@@ -20,7 +20,6 @@ class StoriesController extends Controller
     public function storyDetails($story_alias){
 
         $stories = Stories::where('story_alias', $story_alias)->first()->get();
-//Добавлен комментарий
         return view('stories.details', [
             'stories' => $stories
         ]);

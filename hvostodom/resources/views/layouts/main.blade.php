@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title')</title>
     <link rel="icon" href="/img/Fevicon.png" type="image/png">
     <link rel="stylesheet" href="/vendors/bootstrap/bootstrap.min.css">
@@ -12,7 +13,6 @@
     <link rel="stylesheet" href="/vendors/nice-select/nice-select.css">
     <link rel="stylesheet" href="/vendors/owl-carousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="/vendors/owl-carousel/owl.carousel.min.css">
-
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -30,9 +30,9 @@
                 </button>
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
-                        <li class="nav-item active"><a class="nav-link" href="{{route('home')}}">Главная</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('home')}}">Главная</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{route('find')}}">Ищут дом</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Счастливые истории</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('stories')}}">Счастливые истории</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Чем помочь?</a></li>
                     </ul>
 
@@ -149,5 +149,6 @@
 <script src="/vendors/jquery.ajaxchimp.min.js"></script>
 <script src="/vendors/mail-script.js"></script>
 <script src="/js/main.js"></script>
+@yield('custom-js')
 </body>
 </html>

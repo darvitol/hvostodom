@@ -19,6 +19,8 @@ class StoriesSeeder extends Seeder
         for ($i = 1; $i < 15; $i ++) {
             DB::table('stories')->insert([
                 'title' => "История № " . $i,
+                'story_alias' => "story_" . $i,
+                'short_desc' => \Illuminate\Support\Str::random(20),
                 'text'=> \Illuminate\Support\Str::random(100),
                 'created_at'=>Carbon::today(),
                 'updated_at'=>Carbon::now(),

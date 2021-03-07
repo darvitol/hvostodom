@@ -10,21 +10,10 @@
                         <article class="row blog_item">
                             <div class="col-md-3">
                                 <div class="blog_info text-right">
-                                    <div class="post_tag">
-                                        <a href="#">Food,</a>
-                                        <a class="active" href="#">Technology,</a>
-                                        <a href="#">Politics,</a>
-                                        <a href="#">Lifestyle</a>
-                                    </div>
                                     <ul class="blog_meta list">
                                         <li>
                                             <a href="#">{{$story->created_at->format('j M, Y  H:i:s')}}
                                                 <i class="lnr lnr-calendar-full"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">1.2M Views
-                                                <i class="lnr lnr-eye"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -42,11 +31,11 @@
                                     @endphp
                                     <img src="/img/stories/{{$image}}" alt="">
                                     <div class="blog_details">
-                                        <a href="single-blog.html">
+                                        <a href="{{route('storyDetails', $story->story_alias)}}">
                                             <h2>{{$story->title}}</h2>
                                         </a>
                                         <p>{{$story->short_desc}}</p>
-                                        <a class="button button-blog" href="single-blog.html">View More</a>
+                                        <a class="button button-blog" href="{{route('storyDetails', $story->story_alias)}}">View More</a>
                                     </div>
                                 </div>
                             </div>

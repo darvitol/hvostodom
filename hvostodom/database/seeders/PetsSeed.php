@@ -21,6 +21,7 @@ class PetsSeed extends Seeder
         for ($i = 1; $i < 15; $i ++) {
             DB::table('pets')->insert([
                 'name' => "Питомец " . $i,
+                'pet_alias' => "pet_ " . $i,
                 'sex' => 'м',
                 'age' => 1.4,
                 'description'=>Str::random(100),
