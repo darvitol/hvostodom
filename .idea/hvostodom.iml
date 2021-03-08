@@ -117,6 +117,12 @@
       <excludeFolder url="file://$MODULE_DIR$/hvostodom/vendor/doctrine/cache" />
       <excludeFolder url="file://$MODULE_DIR$/hvostodom/vendor/doctrine/event-manager" />
       <excludeFolder url="file://$MODULE_DIR$/hvostodom/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/hvostodom/vendor/pragmarx/google2fa" />
+      <excludeFolder url="file://$MODULE_DIR$/hvostodom/vendor/laravel/fortify" />
+      <excludeFolder url="file://$MODULE_DIR$/hvostodom/vendor/bacon/bacon-qr-code" />
+      <excludeFolder url="file://$MODULE_DIR$/hvostodom/vendor/dasprid/enum" />
+      <excludeFolder url="file://$MODULE_DIR$/hvostodom/vendor/paragonie/constant_time_encoding" />
+      <excludeFolder url="file://$MODULE_DIR$/hvostodom/vendor/laravel/ui" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

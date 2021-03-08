@@ -22,7 +22,8 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand logo_h" href="{{route('home')}}"><img src="/img/home/logo.svg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -37,7 +38,8 @@
                     </ul>
 
                     <ul class="nav-shop">
-                        <li class="nav-item"><a class="button  btn-outline-warning" href="/#">Сделать пожертвование</a></li>
+                        <li class="nav-item"><a class="button  btn-outline-warning" href="/#">Сделать пожертвование</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -62,7 +64,8 @@
                             divided deep moved us lan Gathering thing us land years living.
                         </p>
                         <p>
-                            So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved
+                            So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep
+                            moved
                         </p>
                     </div>
                 </div>
@@ -131,14 +134,15 @@
             <div class="row d-flex">
                 <p class="col-lg-12 footer-text text-center">
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="/https://colorlib.com" target="_blank">Colorlib</a>
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                    All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by
+                    <a href="/https://colorlib.com" target="_blank">Colorlib</a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
             </div>
         </div>
     </div>
 </footer>
 <!--================ End footer Area  =================-->
-
 
 
 <script src="/vendors/jquery/jquery-3.2.1.min.js"></script>
